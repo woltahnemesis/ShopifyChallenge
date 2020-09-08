@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #f1f3f8;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 5em auto;
+}
+
+.container h2 {
+    margin: 0;
+}
+
+form {
+    background-color: white;
+    margin: 2em 0;
+    box-sizing: border-box;
+    padding: 2.5% 0;
+}
+
+form label {
+    margin: 0 5%;
+}
+
+form #search {
+    width: 90%;
+    height: 2em;
+    margin: 5px 5% 0 5%;
+}
+
+#submit {
+    display: none;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-container div {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 2em;
+    width: 30em;
+    display: none;
+}
+
+.sub-container div h4 {
+    margin: 0;
+}
+
+.sub-container div ul li {
+    margin: 15px 0;
+}
+
+.sub-container div ul li button {
+    background-color: white;
+    border: 2px solid #f1f3f8;
+    border-radius: 2px;
+    height: 2.5em;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.sub-container div ul li button:hover {
+    background-color: #f1f3f8;
+}
+
+.sub-container div ul li button:hover:disabled {
+    background-color: white;
+}
